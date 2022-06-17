@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ScrollViewDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AOX-K4-SaP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9YT-IQ-wof">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2100"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camino" translatesAutoresizingMaskIntoConstraints="NO" id="EJ2-Fv-Obn">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="220"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="220" id="Z3H-30-u2K"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FRIbiza" translatesAutoresizingMaskIntoConstraints="NO" id="KJ5-Mx-ygR">
+                                                <rect key="frame" x="0.0" y="230" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="qqg-Ep-Y4A"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="ZyZ-vv-eGS">
+                                                <rect key="frame" x="0.0" y="440" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="N9Y-cl-YqE"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="617-JF-fJ5">
+                                                <rect key="frame" x="0.0" y="650" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="WOX-ea-7Wd"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="leon cupra" translatesAutoresizingMaskIntoConstraints="NO" id="xgH-eA-a2O">
+                                                <rect key="frame" x="0.0" y="860" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="FKc-8D-9Nn"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cupra" translatesAutoresizingMaskIntoConstraints="NO" id="cZy-pr-kxf">
+                                                <rect key="frame" x="0.0" y="1070" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="1bU-Me-cye"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="QrC-sx-S6Y">
+                                                <rect key="frame" x="0.0" y="1280" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="wxg-38-qHa"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="PSr-1s-JbW">
+                                                <rect key="frame" x="0.0" y="1490" width="414" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="zB6-ea-1tn"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="El-logo-del-SEAT" translatesAutoresizingMaskIntoConstraints="NO" id="956-J2-abr">
+                                                <rect key="frame" x="0.0" y="1800" width="414" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="wjS-00-X9z"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="9YT-IQ-wof" firstAttribute="leading" secondItem="d8w-Bo-XvU" secondAttribute="leading" id="9Pt-Uz-5xN"/>
+                                    <constraint firstItem="9YT-IQ-wof" firstAttribute="bottom" secondItem="d8w-Bo-XvU" secondAttribute="bottom" id="NHC-1I-1vi"/>
+                                    <constraint firstItem="9YT-IQ-wof" firstAttribute="width" secondItem="7rc-MZ-ar0" secondAttribute="width" id="Wkp-bJ-y9Z"/>
+                                    <constraint firstItem="9YT-IQ-wof" firstAttribute="trailing" secondItem="d8w-Bo-XvU" secondAttribute="trailing" id="k8f-we-JWq"/>
+                                    <constraint firstItem="9YT-IQ-wof" firstAttribute="top" secondItem="d8w-Bo-XvU" secondAttribute="top" id="xDk-ch-E9A"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="d8w-Bo-XvU"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="7rc-MZ-ar0"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AOX-K4-SaP" secondAttribute="bottom" id="G9W-JG-MWq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AOX-K4-SaP" secondAttribute="trailing" id="Ns6-vx-efj"/>
+                            <constraint firstItem="AOX-K4-SaP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cJR-xn-ewN"/>
+                            <constraint firstItem="AOX-K4-SaP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fkb-yf-Ns9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.637681159420293" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1440" height="655"/>
+        <image name="2" width="550" height="372"/>
+        <image name="3" width="800" height="600"/>
+        <image name="4" width="1200" height="675"/>
+        <image name="El-logo-del-SEAT" width="1280" height="720"/>
+        <image name="FRIbiza" width="674" height="356"/>
+        <image name="camino" width="960" height="659"/>
+        <image name="cupra" width="480" height="270"/>
+        <image name="leon cupra" width="728" height="479"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
